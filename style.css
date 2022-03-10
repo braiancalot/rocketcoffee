@@ -150,24 +150,13 @@ main .main-text h2 {
     }
 
     @keyframes blink {
-        20% {
+        50% {
             opacity: 0;
         }
     
-        40% {
-            opacity: 0.5;
-        }
-    
-        55% {
-            opacity: 0;
-        }
-    
-        65% {
-            opacity: 0;
-        }
     
         80% {
-            opacity: 0.5;
+            opacity: 1;
         }
     }
 }
